@@ -1,43 +1,81 @@
 <!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Achados do Aquário</title>
+<meta name="description" content="Equipamentos para aquário de água doce selecionados por Meus Pé de Planta.">
+<meta name="referrer" content="no-referrer">
 <style>
-:root{--bg:#f2f8f4;--fg:#12302a;--card:#fff;--ac:#1d7a5f}
-@media(prefers-color-scheme:dark){:root{--bg:#0e1f1b;--fg:#e6f2ee;--card:#17302a;--ac:#4cc9a0}}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px system-ui,sans-serif}
-main{max-width:480px;margin:0 auto;padding:24px 16px}
-h1{font-size:1.5rem;margin:0}p.s{opacity:.8;margin:4px 0 20px}
-h2{font-size:1.05rem;margin:28px 0 4px;color:var(--ac)}
-a.b{display:block;background:var(--card);border:1px solid var(--ac);color:var(--fg);text-decoration:none;padding:14px;border-radius:12px;margin:10px 0}
-a.b strong{display:block;color:var(--ac)}
-a.b em{display:inline-block;font-style:normal;font-size:.75rem;background:var(--ac);color:var(--bg);border-radius:6px;padding:1px 6px;margin-left:6px}
-small{opacity:.7;display:block;margin-top:24px}
-</style></head><body><main>
+:root{--bg:#f3f8f5;--fg:#10302a;--card:#fff;--ac:#16805f;--ac2:#0b4f3d;--mut:#5b7a72;--gold:#c9a24b;--line:#dbe9e3}
+@media(prefers-color-scheme:dark){:root{--bg:#0a1815;--fg:#e8f3ef;--card:#142925;--ac:#4cc9a0;--ac2:#0e3a30;--mut:#92b3a9;--gold:#e0bb62;--line:#22403a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.35 system-ui,-apple-system,Segoe UI,sans-serif}
+.hero{position:relative;overflow:hidden;text-align:center;padding:36px 20px 30px;color:#eafaf4;background:radial-gradient(120% 90% at 50% 0%,#1d8f6c 0%,#0b4f3d 55%,#06241d 100%)}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.07)}
+.hero:before{width:120px;height:120px;left:-30px;bottom:-40px}.hero:after{width:70px;height:70px;right:24px;top:18px}
+.hero h1{margin:0;font-size:1.7rem;letter-spacing:.2px}
+.hero p{margin:8px auto 0;max-width:380px;opacity:.9;font-size:.95rem}
+.tag{display:inline-block;margin-top:14px;padding:5px 12px;border:1px solid rgba(255,255,255,.45);border-radius:99px;font-size:.78rem}
+main{max-width:560px;margin:0 auto;padding:6px 14px 30px}
+h2{font-size:1.1rem;margin:26px 2px 10px;color:var(--ac);display:flex;align-items:center;gap:8px}
+h2 span{font-size:.78rem;color:var(--mut);font-weight:400}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+a.c{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;color:var(--fg);text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.06);transition:transform .15s}
+a.c:active{transform:scale(.98)}
+.im{position:relative;aspect-ratio:1/1;background:#e9f1ee}
+.im img{width:100%;height:100%;object-fit:cover;display:block}
+.vd{position:absolute;left:8px;top:8px;background:var(--gold);color:#2a1f00;font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:99px}
+.bd{padding:10px 11px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.nm{font-size:.86rem;font-weight:600;line-height:1.25}
+.ds{font-size:.76rem;color:var(--mut)}
+.ft{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.pr{font-weight:800;color:var(--ac);font-size:.98rem}
+.go{background:var(--ac);color:#fff;font-size:.74rem;font-weight:700;padding:6px 10px;border-radius:99px;white-space:nowrap}
+@media(prefers-color-scheme:dark){.go{color:#06241d}}
+.big{grid-column:1/-1;flex-direction:row}
+.big .im{width:42%;aspect-ratio:1/1;flex:none}
+.big .nm{font-size:.95rem}
+.note{font-size:.76rem;color:var(--mut);margin:22px 4px 0;text-align:center}
+.ig{display:block;text-align:center;margin:26px 0 0;color:var(--ac);font-weight:700;text-decoration:none}
+</style></head><body>
+<header class="hero">
 <h1>🐟 Achados do Aquário</h1>
-<p class="s">by Meus Pé de Planta — aquarismo de água doce. Os marcados com "vídeo" eu mostro testando no perfil; os outros são itens úteis que ainda vou testar.</p>
+<p>Equipamentos para aquário de água doce, escolhidos por quem vive o hobby. By Meus Pé de Planta.</p>
+<span class="tag">Os marcados "vídeo" eu mostro testando no perfil</span>
+</header>
+<main>
 
-<h2>⭐ Os mais pedidos</h2>
-<a class="b" href="https://s.shopee.com.br/4LKoQ743h6" rel="sponsored noopener"><strong>🧽 Sifão para troca de água (Sunsun HJS-300)<em>vídeo</em></strong>TPA sem balde, ~R$ 27</a>
-<a class="b" href="https://s.shopee.com.br/LofepmXNx" rel="sponsored noopener"><strong>🧲 Raspador magnético flutuante<em>vídeo</em></strong>Limpa o vidro sem molhar a mão, ~R$ 24</a>
-<a class="b" href="https://s.shopee.com.br/5LDLpVLdzV" rel="sponsored noopener"><strong>💡 Luminária LED 8W 27 cm<em>vídeo</em></strong>Luz barata para aquário pequeno, ~R$ 47</a>
-<a class="b" href="https://s.shopee.com.br/9zzBOPznNC" rel="sponsored noopener"><strong>🌀 Filtro hang-on HF-250 (até 30 L)<em>vídeo</em></strong>Filtro silencioso e barato, ~R$ 36</a>
-<a class="b" href="https://s.shopee.com.br/30pQpnNZRn" rel="sponsored noopener"><strong>🍽️ Alimentador automático a pilhas<em>vídeo</em></strong>Para viagens e fins de semana, ~R$ 54</a>
-
-<h2>🌱 Plantado e aquascape</h2>
-<a class="b" href="https://s.shopee.com.br/AKc1mkACH6" rel="sponsored noopener"><strong>💡 Luminária Smart Led espectro completo</strong>20 cm a 1 m, ~R$ 40</a>
-<a class="b" href="https://s.shopee.com.br/9pflC8dlDy" rel="sponsored noopener"><strong>🧪 Fertilizante Plant Grow Pro 120 ml</strong>Nutrição para plantas, ~R$ 26</a>
-<a class="b" href="https://s.shopee.com.br/1BpTv1ACG" rel="sponsored noopener"><strong>🥢 Pinça de aquascape em inox</strong>Plantio e poda, ~R$ 16</a>
-
-<h2>🧴 Manutenção e cuidados</h2>
-<a class="b" href="https://s.shopee.com.br/8VANbc2O4j" rel="sponsored noopener"><strong>💧 Anticloro 1 L (trata até 20.000 L)</strong>Rende muito, ~R$ 22</a>
-<a class="b" href="https://s.shopee.com.br/8pnDmYMUAA" rel="sponsored noopener"><strong>🌡️ Termômetro digital em fita</strong>Cola no vidro, ~R$ 18</a>
-<a class="b" href="https://s.shopee.com.br/6q29cfRpkZ" rel="sponsored noopener"><strong>🐠 Ração em flocos Poytara Tropicais 30 g</strong>Para peixes tropicais de água doce, ~R$ 24</a>
-
-<h2>🏠 Utilidades que ajudam o aquarista</h2>
-<a class="b" href="https://s.shopee.com.br/4fxf2jHGt1" rel="sponsored noopener"><strong>⏱️ Timer digital de tomada (bivolt)</strong>Liga e desliga a luz do aquário sozinho, ~R$ 40</a>
+<h2>⭐ Os mais pedidos <span>testados em vídeo no perfil</span></h2>
+<div class="grid">
+<a class="c big" href="https://s.shopee.com.br/4LKoQ743h6" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/c8ef3702268816a78b2b2c4c5714e2f6@resize_w450_nl.webp" alt="Sifão Sunsun HJS-300" loading="lazy"><span class="vd">▶ vídeo</span></div><div class="bd"><div class="nm">Sifão para troca de água (Sunsun HJS-300)</div><div class="ds">Faça a TPA sem balde e sem sujeira.</div><div class="ft"><span class="pr">~R$ 27</span><span class="go">Ver na Shopee</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/LofepmXNx" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134201-22100-ypf1mxw2tkiva6@resize_w450_nl.webp" alt="Raspador magnético" loading="lazy"><span class="vd">▶ vídeo</span></div><div class="bd"><div class="nm">Raspador magnético flutuante</div><div class="ds">Limpa o vidro sem molhar a mão.</div><div class="ft"><span class="pr">~R$ 24</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/5LDLpVLdzV" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134201-825a8-mt9qbh9zyadl99@resize_w450_nl.webp" alt="Luminária LED 8W" loading="lazy"><span class="vd">▶ vídeo</span></div><div class="bd"><div class="nm">Luminária LED 8W 27 cm</div><div class="ds">Luz barata para aquário pequeno.</div><div class="ft"><span class="pr">~R$ 47</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/9zzBOPznNC" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134201-820ld-mv10iian7r41f7@resize_w450_nl.webp" alt="Filtro hang-on HF-250" loading="lazy"><span class="vd">▶ vídeo</span></div><div class="bd"><div class="nm">Filtro hang-on HF-250 (até 30 L)</div><div class="ds">Silencioso e barato.</div><div class="ft"><span class="pr">~R$ 36</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/30pQpnNZRn" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134253-825zp-mm931qvickcja7@resize_w450_nl.webp" alt="Alimentador automático" loading="lazy"><span class="vd">▶ vídeo</span></div><div class="bd"><div class="nm">Alimentador automático a pilhas</div><div class="ds">Para viagens e fins de semana.</div><div class="ft"><span class="pr">~R$ 54</span><span class="go">Ver</span></div></div></a>
+</div>
 
 <h2>🎁 Para quem está começando</h2>
-<a class="b" href="https://s.shopee.com.br/5LDLpneuOf" rel="sponsored noopener"><strong>🐟 Kit Aquário Beteira completo</strong>Aquário + luminária + decoração + ração + anticloro, ~R$ 80</a>
+<div class="grid">
+<a class="c big" href="https://s.shopee.com.br/5LDLpneuOf" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134207-820m8-mtjsjw903if5b0@resize_w450_nl.webp" alt="Kit Aquário Beteira" loading="lazy"></div><div class="bd"><div class="nm">Kit Aquário Beteira completo</div><div class="ds">Aquário + luminária + decoração + ração + anticloro. Ideal para um betta.</div><div class="ft"><span class="pr">~R$ 80</span><span class="go">Ver na Shopee</span></div></div></a>
+</div>
 
-<small>Os links acima são de afiliado: se você comprar por eles, eu ganho uma pequena comissão, sem custo extra para você. Preços podem mudar na Shopee.</small>
+<h2>🌱 Plantado e aquascape</h2>
+<div class="grid">
+<a class="c" href="https://s.shopee.com.br/AKc1mkACH6" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134207-820lc-mrltd7tlx2iveb@resize_w450_nl.webp" alt="Luminária Smart Led" loading="lazy"></div><div class="bd"><div class="nm">Luminária Smart Led espectro completo</div><div class="ds">Modelos de 20 cm a 1 m.</div><div class="ft"><span class="pr">~R$ 40</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/9pflC8dlDy" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134207-820lu-mpmo7g74o9359c@resize_w450_nl.webp" alt="Fertilizante Plant Grow Pro" loading="lazy"></div><div class="bd"><div class="nm">Fertilizante Plant Grow Pro 120 ml</div><div class="ds">Nutrição para plantas.</div><div class="ft"><span class="pr">~R$ 26</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/1BpTv1ACG" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134201-82589-mud6op85o5qd20@resize_w450_nl.webp" alt="Pinça aquascape" loading="lazy"></div><div class="bd"><div class="nm">Pinça de aquascape em inox</div><div class="ds">Plantio e poda de precisão.</div><div class="ft"><span class="pr">~R$ 16</span><span class="go">Ver</span></div></div></a>
+</div>
+
+<h2>🧴 Manutenção e cuidados</h2>
+<div class="grid">
+<a class="c" href="https://s.shopee.com.br/8VANbc2O4j" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134207-820m0-msyjprcqqpza1b@resize_w450_nl.webp" alt="Anticloro 1L" loading="lazy"></div><div class="bd"><div class="nm">Anticloro 1 L (trata até 20.000 L)</div><div class="ds">Rende muito, mais de 10 mil vendas.</div><div class="ft"><span class="pr">~R$ 22</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/8pnDmYMUAA" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134201-7qvg4-ljhjwct0x9p20e@resize_w450_nl.webp" alt="Termômetro digital" loading="lazy"></div><div class="bd"><div class="nm">Termômetro digital em fita</div><div class="ds">Cola no vidro, leitura fácil.</div><div class="ft"><span class="pr">~R$ 18</span><span class="go">Ver</span></div></div></a>
+<a class="c" href="https://s.shopee.com.br/6q29cfRpkZ" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd6h-lx2v30hql31b79@resize_w450_nl.webp" alt="Ração Poytara" loading="lazy"></div><div class="bd"><div class="nm">Ração em flocos Poytara Tropicais 30 g</div><div class="ds">Para peixes tropicais.</div><div class="ft"><span class="pr">~R$ 24</span><span class="go">Ver</span></div></div></a>
+</div>
+
+<h2>🏠 Utilidades que ajudam o aquarista</h2>
+<div class="grid">
+<a class="c" href="https://s.shopee.com.br/4fxf2jHGt1" rel="sponsored noopener"><div class="im"><img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lsa2z7igh73vb7@resize_w450_nl.webp" alt="Timer digital de tomada" loading="lazy"></div><div class="bd"><div class="nm">Timer digital de tomada (bivolt)</div><div class="ds">Liga e desliga a luz do aquário sozinho.</div><div class="ft"><span class="pr">~R$ 40</span><span class="go">Ver</span></div></div></a>
+</div>
+
+<a class="ig" href="https://www.instagram.com/meuspedeplanta/" rel="noopener">📸 Mais aquarismo no @meuspedeplanta</a>
+<p class="note">Os links são de afiliado: se você comprar por eles, eu ganho uma pequena comissão, sem custo extra para você. Preços e disponibilidade podem mudar na Shopee. Itens sem selo de vídeo ainda estão em teste.</p>
 </main></body></html>
